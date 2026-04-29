@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>R_RStudio_Installation</title>
+<title>R &amp; RStudio Installation Instructions</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -23,46 +23,10 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="site_libs/quarto-search/fuse.min.js"></script>
@@ -79,11 +43,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-158031087360bce0ff56dc785ce39e06.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
-  "location": "navbar",
+  "location": "sidebar",
   "copy-button": false,
   "collapse-after": 3,
-  "panel-placement": "end",
-  "type": "overlay",
+  "panel-placement": "start",
+  "type": "textbox",
   "limit": 50,
   "keyboard-shortcut": [
     "f",
@@ -110,51 +74,42 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
-      <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">R_RStudio_Installation</span>
-    </a>
-  </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-  <span class="navbar-toggler-icon"></span>
-</button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
-<span class="menu-text">Home</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
-<span class="menu-text">About</span></a>
-  </li>  
-</ul>
-          </div> <!-- /navcollapse -->
-            <div class="quarto-navbar-tools">
-</div>
-      </div> <!-- /container-fluid -->
-    </nav>
-</header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#pre-workshop-installation" id="toc-pre-workshop-installation" class="nav-link active" data-scroll-target="#pre-workshop-installation">Pre-workshop installation</a></li>
+  <li><a href="#install-r-rstudio-on-your-computer" id="toc-install-r-rstudio-on-your-computer" class="nav-link" data-scroll-target="#install-r-rstudio-on-your-computer">Install R &amp; RStudio on your computer</a>
+  <ul class="collapse">
+  <li><a href="#step-1-install-r" id="toc-step-1-install-r" class="nav-link" data-scroll-target="#step-1-install-r">Step 1: Install R</a></li>
+  <li><a href="#step-2-install-rstudio-desktop" id="toc-step-2-install-rstudio-desktop" class="nav-link" data-scroll-target="#step-2-install-rstudio-desktop">Step 2: Install RStudio Desktop</a></li>
+  <li><a href="#step-3-open-rstudio" id="toc-step-3-open-rstudio" class="nav-link" data-scroll-target="#step-3-open-rstudio">Step 3: Open RStudio</a></li>
+  </ul></li>
+  <li><a href="#videos-and-tutorials-with-installation-instructions" id="toc-videos-and-tutorials-with-installation-instructions" class="nav-link" data-scroll-target="#videos-and-tutorials-with-installation-instructions">Videos and tutorials with installation instructions</a></li>
+  <li><a href="#faq" id="toc-faq" class="nav-link" data-scroll-target="#faq">FAQ</a></li>
+  <li><a href="#prepare-for-the-workshop" id="toc-prepare-for-the-workshop" class="nav-link" data-scroll-target="#prepare-for-the-workshop">Prepare for the workshop</a>
+  <ul class="collapse">
+  <li><a href="#highly-recommended" id="toc-highly-recommended" class="nav-link" data-scroll-target="#highly-recommended"><em>Highly recommended</em></a></li>
+  <li><a href="#recommended" id="toc-recommended" class="nav-link" data-scroll-target="#recommended"><em>Recommended</em></a></li>
+  </ul></li>
+  <li><a href="#instructor-info" id="toc-instructor-info" class="nav-link" data-scroll-target="#instructor-info">Instructor Info</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">R_RStudio_Installation</h1>
+<h1 class="title">R &amp; RStudio Installation Instructions</h1>
 </div>
 
 
@@ -171,16 +126,123 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<p>This is a Quarto website.</p>
-<p>To learn more about Quarto websites visit <a href="https://quarto.org/docs/websites" class="uri">https://quarto.org/docs/websites</a>.</p>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 2</code></pre>
-</div>
-</div>
+<p>Link to this page: <a href="https://ohsu-octri-berd.github.io/R_RStudio_Installation/">https://ohsu-octri-berd.github.io/R_RStudio_Installation/</a></p>
+<section id="pre-workshop-installation" class="level1">
+<h1>Pre-workshop installation</h1>
+<ul>
+<li><strong><span style="color:darkorange">Please install the software before the workshop.</span></strong>
+<ul>
+<li>The workshop will begin assuming you already have R &amp; RStudio set up.</li>
+</ul></li>
+<li>There will be an installation help session starting 30 minutes before the first day of the workshop in case you are having difficulty installing R &amp; RStudio and want to ask for help.</li>
+</ul>
+</section>
+<section id="install-r-rstudio-on-your-computer" class="level1">
+<h1>Install R &amp; RStudio on your computer</h1>
+<ul>
+<li>R &amp; RStudio are two separate programs. You must first install R, and then install RStudio desktop.</li>
+<li>If you prefer tutorials or videos with installation instructions, please see the next section below.</li>
+</ul>
+<section id="step-1-install-r" class="level2">
+<h2 class="anchored" data-anchor-id="step-1-install-r">Step 1: Install R</h2>
+<p><em>Note: as of 4/28/2026, the latest version of R is 4.6.0. If you are reading these instructions later, references for version 4.6.0 below will be a later version.</em></p>
+<ul>
+<li>Windows
+<ul>
+<li>Go to <a href="https://cran.rstudio.com/bin/windows/base/" class="uri">https://cran.rstudio.com/bin/windows/base/</a> and download R using the link “Download R-4.6.0. for Windows”.</li>
+</ul></li>
+<li>Mac OS
+<ul>
+<li>Go to <a href="https://cran.rstudio.com/bin/macosx/" class="uri">https://cran.rstudio.com/bin/macosx/</a> and download the latest .pkg file (currently R-4.6.0.pkg) listed on the left column based on your computer’s specifications.</li>
+<li>For some packages and uses, <a href="https://apps.apple.com/us/app/xcode/id497799835?mt=12">Xcode</a> and <a href="https://www.xquartz.org/">XQuartz</a> may be required, but there is no need to install these until you need them (Xcode takes a very long time to install).
+<ul>
+<li><em>They will not be needed for the workshop.</em></li>
+</ul></li>
+</ul></li>
+</ul>
+</section>
+<section id="step-2-install-rstudio-desktop" class="level2">
+<h2 class="anchored" data-anchor-id="step-2-install-rstudio-desktop">Step 2: Install RStudio Desktop</h2>
+<ul>
+<li>Go to <a href="https://posit.co/download/rstudio-desktop/#download" class="uri">https://posit.co/download/rstudio-desktop/#download</a></li>
+<li>Go to step <code>2: Install RStudio</code> at the bottom right of the page, and select your computer’s operating system.</li>
+<li>Click the blue box to download the installation file corresponding to your operating system.
+<ul>
+<li>The blue box should say something like “DOWNLOAD RSTUDIO DESKTOP FOR MACOS 14+” (or Windows).</li>
+</ul></li>
+<li>Follow the download instructions on your computer.</li>
+</ul>
+<!-- <a href="https://posit.co/download/rstudio-desktop/#download"><img src="img/install_rstudio.png" width="40%" height="40%"></a> -->
+</section>
+<section id="step-3-open-rstudio" class="level2">
+<h2 class="anchored" data-anchor-id="step-3-open-rstudio">Step 3: Open RStudio</h2>
+<ul>
+<li>After installing both R &amp; RStudio, open RStudio by clicking on the RStudio icon, a round blue ball with R in it, that should look something like this:</li>
+</ul>
+<p><img src="images/rstudiologo.png" class="img-fluid"></p>
+<ul>
+<li><em>Do not open the regular R software</em>, it runs in the background while you use RStudio.</li>
+</ul>
+</section>
+</section>
+<section id="videos-and-tutorials-with-installation-instructions" class="level1">
+<h1>Videos and tutorials with installation instructions</h1>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=3f8TMPOZTLE">Kristen Sosulski’s Installing R and RStudio</a> (2024)<br>
+</li>
+<li><a href="https://learnr-examples.shinyapps.io/ex-setup-r/">Tutorial on downloading R and RStudio</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLkIselvEzpM73U-0ONpe7eHp2WCuItVWQ">OpenIntroOrg’s YouTube video</a></li>
+</ul>
+</section>
+<section id="faq" class="level1">
+<h1>FAQ</h1>
+<ol type="1">
+<li><strong>What if I already have R &amp; RStudio installed? Do I need to install them again to the latest version?</strong>.
+<ul>
+<li><strong>R</strong>: If you already have R installed, make sure it is at least version 4.1.0 in order to use the packages that we will be using during the workshop. Just follow the R installation instructions above to update everything.
+<ul>
+<li><em>Note that you will need to reinstall your R packages when you update R. We recommend making a list of your R packages before updating R.</em></li>
+<li><em>An example of how to this is described <a href="https://bookdown.org/pdr_higgins/rmrwr/major-r-updates-where-are-my-packages.html">here</a>.</em></li>
+<li><em>If you are a beginner, I recommend just installing R packages as you need them.</em></li>
+</ul></li>
+<li><strong>RStudio</strong>: RStudio updates are released regularly, and we recommend updating to the latest version.
+<ul>
+<li><em>Updates are quick to install and do not require reinstalling R packages.</em></li>
+<li>Follow the RStudio installation instructions above to update RStudio.</li>
+</ul></li>
+</ul></li>
+<li><strong>What if I can’t install R &amp; RStudio on my computer before the workshop?</strong>
+<ul>
+<li>If you are using an older computer or computer for which you do not have administrative rights, then you might run into problems installing R &amp; RStudio.</li>
+<li>If you cannot install R &amp; RStudio before the workshop, we highly recommend creating a <a href="https://login.posit.cloud/login">free Posit Cloud account</a> to use RStudio online for the workshop.</li>
+</ul></li>
+</ol>
+<ul>
+<li>For help, try <a href="https://www.youtube.com/watch?v=3f8TMPOZTLE">watching this video</a></li>
+</ul>
+</section>
+<section id="prepare-for-the-workshop" class="level1">
+<h1>Prepare for the workshop</h1>
+<section id="highly-recommended" class="level2">
+<h2 class="anchored" data-anchor-id="highly-recommended"><em>Highly recommended</em></h2>
+<ul>
+<li>Get acquainted with RStudio Desktop (and R) prior to the workshop. You will get much more out of the workshop if you have opened the software and explored the interface first.</li>
+</ul>
+</section>
+<section id="recommended" class="level2">
+<h2 class="anchored" data-anchor-id="recommended"><em>Recommended</em></h2>
+<ul>
+<li>Look over <a href="https://berd-r-intro2024.netlify.app/slides_r_berd_2024">slides from a previous Intro to R workshop</a>.</li>
+</ul>
+</section>
+</section>
+<section id="instructor-info" class="level1">
+<h1>Instructor Info</h1>
+<p><a href="http://jessicaminnier.com/">Jessica Minnier, PhD</a> &amp; <a href="https://ohsu-psu-sph.org/our-school/faculty-directory/name/meike-niederhausen/">Meike Niederhausen, PhD</a>, Oregon Health &amp; Science University</p>
+<p>Slides and code for BERD workshop materials: <a href="https://github.com/jminnier/berd_r_courses">jminnier/berd_r_courses</a></p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
