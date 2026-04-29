@@ -1,5 +1,8 @@
 ---
 title: "R & RStudio Installation Instructions"
+institute: "OHSU OCTRI-BERD"
+author: "Jessica Minnier, Meike Niederhausen"
+date: "04/30/2026"
 ---
 
 
