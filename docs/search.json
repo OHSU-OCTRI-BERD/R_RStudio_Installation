@@ -46,6 +46,6 @@
     "href": "index.html#step-3-open-rstudio",
     "title": "R & RStudio Installation Instructions",
     "section": "Step 3: Open RStudio",
-    "text": "Step 3: Open RStudio\n\nAfter installing both R & RStudio, open RStudio by clicking on the RStudio icon, a round blue ball with R in it, that should look something like this:\n\n\n\nDo not open the regular R software, it runs in the background while you use RStudio."
+    "text": "Step 3: Open RStudio\n\nAfter installing both R & RStudio, open RStudio by clicking on the RStudio icon, a round blue ball with R in it, that should look something like this:\n\n\n\n\n\n\n\nDo not open the regular R software, it runs in the background while you use RStudio."
   }
 ]

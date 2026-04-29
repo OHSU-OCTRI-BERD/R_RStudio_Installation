@@ -29,15 +29,15 @@ Link to this page: [https://ohsu-octri-berd.github.io/R_RStudio_Installation/](h
 *Note: as of 4/28/2026, the latest version of R is 4.6.0. If you are reading these instructions later, references for version 4.6.0 below will be a later version.* 
 
 -   Windows
-    -   Go to <https://cran.rstudio.com/bin/windows/base/> and download R using the link "Download R-4.6.0. for Windows".
+    -   Go to [https://cran.rstudio.com/bin/windows/base/](https://cran.rstudio.com/bin/windows/base/){target="_blank"} and download R using the link "Download R-4.6.0. for Windows".
 -   Mac OS
-    -   Go to <https://cran.rstudio.com/bin/macosx/> and download the latest .pkg file (currently R-4.6.0.pkg) listed on the left column based on your computer's specifications. 
-    -   For some packages and uses, [Xcode](https://apps.apple.com/us/app/xcode/id497799835?mt=12) and [XQuartz](https://www.xquartz.org/) may be required, but there is no need to install these until you need them (Xcode takes a very long time to install).
+    -   Go to [https://cran.rstudio.com/bin/macosx/](https://cran.rstudio.com/bin/macosx/){target="_blank"} and download the latest .pkg file (currently R-4.6.0.pkg) listed on the left column based on your computer's specifications. 
+    -   For some packages and uses, [Xcode](https://apps.apple.com/us/app/xcode/id497799835?mt=12){target="_blank"} and [XQuartz](https://www.xquartz.org/){target="_blank"} may be required, but there is no need to install these until you need them (Xcode takes a very long time to install).
         -   *They will not be needed for the workshop.*
     
 ## Step 2: Install RStudio Desktop
 
--   Go to <https://posit.co/download/rstudio-desktop/#download>
+-   Go to [https://posit.co/download/rstudio-desktop/#download](https://posit.co/download/rstudio-desktop/#download){target="_blank"}
 -   Go to step `2: Install RStudio` at the bottom right of the page, and select your computer's operating system.
 -   Click the blue box to download the installation file corresponding to your operating system. 
     -   The blue box should say something like "DOWNLOAD RSTUDIO DESKTOP FOR MACOS 14+" (or Windows).
@@ -49,15 +49,15 @@ Link to this page: [https://ohsu-octri-berd.github.io/R_RStudio_Installation/](h
 
 -   After installing both R & RStudio, open RStudio by clicking on the RStudio icon, a round blue ball with R in it, that should look something like this:
 
-![](images/rstudiologo.png)
+![](images/rstudiologo.png){fig-align="center"}
 
 -   *Do not open the regular R software*, it runs in the background while you use RStudio.
 
 # Videos and tutorials with installation instructions
 
--   [Kristen Sosulski’s Installing R and RStudio](https://www.youtube.com/watch?v=3f8TMPOZTLE) (2024)  
--   [Tutorial on downloading R and RStudio](https://learnr-examples.shinyapps.io/ex-setup-r/) 
--   [OpenIntroOrg’s YouTube video](https://www.youtube.com/playlist?list=PLkIselvEzpM73U-0ONpe7eHp2WCuItVWQ) 
+-   [Kristen Sosulski’s Installing R and RStudio](https://www.youtube.com/watch?v=3f8TMPOZTLE){target="_blank"} (2024)  
+-   [Tutorial on downloading R and RStudio](https://learnr-examples.shinyapps.io/ex-setup-r/){target="_blank"} 
+-   [OpenIntroOrg’s YouTube video](https://www.youtube.com/playlist?list=PLkIselvEzpM73U-0ONpe7eHp2WCuItVWQ){target="_blank"} 
 
 
 
@@ -66,19 +66,15 @@ Link to this page: [https://ohsu-octri-berd.github.io/R_RStudio_Installation/](h
 1. **What if I already have R & RStudio installed? Do I need to install them again to the latest version?**. 
     -   **R**: If you already have R installed, make sure it is at least version 4.1.0 in order to use the packages that we will be using during the workshop. Just follow the R installation instructions above to update everything. 
         -   *Note that you will need to reinstall your R packages when you update R. We recommend making a list of your R packages before updating R.* 
-        -   *An example of how to this is described  [here](https://bookdown.org/pdr_higgins/rmrwr/major-r-updates-where-are-my-packages.html).*
+        -   *An example of how to this is described  [here](https://bookdown.org/pdr_higgins/rmrwr/major-r-updates-where-are-my-packages.html){target="_blank"}.*
         -   *If you are a beginner, I recommend just installing R packages as you need them.*
     -   **RStudio**: RStudio updates are released regularly, and we recommend updating to the latest version. 
         -   *Updates are quick to install and do not require reinstalling R packages.* 
         -   Follow the RStudio installation instructions above to update RStudio.
 1.  **What if I can't install R & RStudio on my computer before the workshop?**
     -   If you are using an older computer or computer for which you do not have administrative rights, then you might run into problems installing R & RStudio.
-    -   If you cannot install R & RStudio before the workshop, we highly recommend creating a [free Posit Cloud account](https://login.posit.cloud/login) to use RStudio online for the workshop. 
+    -   If you cannot install R & RStudio before the workshop, we highly recommend creating a [free Posit Cloud account](https://login.posit.cloud/login){target="_blank"} to use RStudio online for the workshop. 
 
-
-
-
-- For help, try [watching this video](https://www.youtube.com/watch?v=3f8TMPOZTLE)
 
 
 # Prepare for the workshop
@@ -89,20 +85,15 @@ Link to this page: [https://ohsu-octri-berd.github.io/R_RStudio_Installation/](h
 
 ## *Recommended*
 
-- Look over [slides from a previous Intro to R workshop](https://berd-r-intro2024.netlify.app/slides_r_berd_2024).
+- Look over [slides from a previous Intro to R workshop](https://berd-r-intro2024.netlify.app/slides_r_berd_2024){target="_blank"}.
 
 
 
 # Instructor Info
 
-[Jessica Minnier, PhD](http://jessicaminnier.com/) & [Meike Niederhausen, PhD](https://ohsu-psu-sph.org/our-school/faculty-directory/name/meike-niederhausen/), 
+[Jessica Minnier, PhD](http://jessicaminnier.com/){target="_blank"} & [Meike Niederhausen, PhD](https://ohsu-psu-sph.org/our-school/faculty-directory/name/meike-niederhausen/){target="_blank"}, 
 Oregon Health & Science University
 
-Slides and code for BERD workshop materials: [jminnier/berd_r_courses](https://github.com/jminnier/berd_r_courses)
+Slides and code for BERD workshop materials: [jminnier/berd_r_courses](https://github.com/jminnier/berd_r_courses){target="_blank"}
 
 
-```{r, eval=FALSE, echo=FALSE}
-# after knitting, copy to folder that goes to github, links to bitly
-file.copy("00-install-instruct-berd-2024-09.html", "/Users/minnier/Dropbox (Personal)/Work/repos/talks_etc/", 
-          overwrite = TRUE)
-```
